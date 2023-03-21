@@ -6,9 +6,6 @@ import { Header } from "../../components/header";
 import { Section } from "../../components/section";
 import { ButtonText } from "../../components/buttonText";
 
-
-
-
 export function Details(){
   
   return (
