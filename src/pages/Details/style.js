@@ -24,6 +24,7 @@ export const Links = styled.ul`
 
         a {
             color: ${({ theme }) => theme.COLORS.WHITE};
+            font-size: 16px;
         }
     }
 `

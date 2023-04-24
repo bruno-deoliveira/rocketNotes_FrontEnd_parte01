@@ -20,7 +20,7 @@ export function Home (){
 
       <Menu>
         <li>
-          <ButtonText title="Todos" isActive/>
+          <ButtonText title="Todos" isActive />
         </li>
         <li>
           <ButtonText title="React" />
@@ -31,30 +31,36 @@ export function Home (){
       </Menu>
 
       <Search>
-        <Input placeholder="Pesquisar pelo Titulo" icon={FiSearch}/>
+        <Input placeholder="Pesquisar pelo Titulo" icon={FiSearch} />
       </Search>
 
       <Content>
         <Section title="Minhas notas">
-          <Note data = {{
-            title: "React",
-            tags: [
-              {id: "1", name: "React" },
-              {id: "2", name: "rocketseat" }
-            ]
+          <Note
+            data={{
+              title: "React",
+              tags: [
+                { id: "1", name: "React" },
+                { id: "2", name: "rocketseat" },
+              ],
             }}
-            />
-            
-
+          />
+          <Note
+            data={{
+              title: "React",
+              tags: [
+                { id: "1", name: "React" },
+                { id: "2", name: "rocketseat" },
+              ],
+            }}
+          />
         </Section>
-
       </Content>
 
       <NewNote to="/new">
-        <FiPlus/>
-        Criar Nota 
+        <FiPlus />
+        Criar Nota
       </NewNote>
-
     </Container>
   );
 }

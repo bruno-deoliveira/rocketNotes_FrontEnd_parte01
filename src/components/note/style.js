@@ -16,12 +16,13 @@ export const Container = styled.button`
     font-weight: 700;
     font-size: 24px;
     color: ${({ theme }) => theme.COLORS.WHITE};
+    margin-bottom: 8px;
+  }
 
-    > footer {
-      width: 100%;
-      display: flex;
-      margin-top: 24px;
-    }
+  > footer {
+    width: 100%;
+    display: flex;
+    margin-top: 24px;
   }
 `;
 
