@@ -7,7 +7,7 @@ export default createGlobalStyle`
   box-sizing: border-box;
 }
 html {
-    font-size: 62.5%;
+    //font-size: 62.5%;
 }
 
 body{
@@ -19,7 +19,7 @@ body{
 
 border-style, input, button, textarea{
   font-family: 'Roboto Slab', serif;
-  font-size: 1.6rem;
+  font-size: 16px; //1.6rem
   outline: none;
 }
 
